@@ -1,0 +1,39 @@
+.div h3 {
+  text-align: center;
+}
+
+.div button {
+  width: 20%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  background: #333;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  margin-left: 30rem;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 1232px) {
+  .div button {
+    width: 10rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    background: #333;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-left: 5.5rem;
+    margin-top: 2rem;
+  }
+}
